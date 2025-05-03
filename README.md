@@ -20,10 +20,22 @@ Each contains 6 trial folders. Each trial folder contains `.txt` files named aft
 - **Sampling Frequency:** 4700 Hz
 - **Hardware:** Raspberry Pi + MCP3008 ADC + [Grove - EMG Detector](https://wiki.seeedstudio.com/Grove-EMG_Detector/)
 - **Electrode Placement:**
-![](images/IMG_6714.jpg)![](images/IMG_6715.jpg)
+  <table>
+    <tr>
+      <td><img src="images/IMG_6714.jpg" width="200"/></td>
+      <td><img src="images/IMG_6715.jpg" width="200"/></td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Channel 0 Electrode Placement (Bottom)</td>
+      <td style="text-align:center;">Channel 1 Electrode Placement (Top)</td>
+    </tr>
+  </table>
+
 ---
 
 ## Gestures
+
+<img src="images/Gestures.png" alt="Description" width="65%" />
 
 There are 10 defined gestures, shown in the following order from the top left:
 - Rest
@@ -36,8 +48,6 @@ There are 10 defined gestures, shown in the following order from the top left:
 - Third Digit Flexion
 - Fourth Digit Flexion
 - Fifth Digit Flexion
-
-![](images/Gestures.png)
 
 Note: The last 4 gestures are only available for Trial 1.
 
