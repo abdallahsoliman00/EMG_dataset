@@ -12,6 +12,10 @@ EMG_data_rectified has all data resampled evenly at 4700 Hz
 
 Each contains 6 trial folders. Each trial folder contains `.txt` files named after the gesture being performed (e.g., `rest0.txt`, `handlexion2.txt`, etc.). Each file holds a single gesture recording lasting 5 seconds.
 
+Each gesture is recorded in two states. 
+- A static state (5 recordings all trials, 10 for trial 6)
+- A dynamic state (1 recording all trials, none for trial 6)
+
 ---
 
 ## 🧠 Signal Acquisition
