@@ -18,7 +18,7 @@ Each gesture is recorded in two states.
 
 ---
 
-## 🧠 Signal Acquisition
+## Signal Acquisition
 
 - **Channels:** 2 EMG electrodes, 1 reference per channel
 - **Sampling Frequency:** 4700 Hz
