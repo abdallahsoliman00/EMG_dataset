@@ -2,6 +2,8 @@
 
 This repository contains a dataset collected for a project on **EMG-based hand gesture classification**, where muscle activity from the forearm was recorded using surface electrodes.
 
+This data was initially processed using the EMG Signal Processing library - [emglib](https://github.com/abdallahsoliman00/EMG_Signal_Processing).
+
 ---
 
 ## Dataset Structure
@@ -14,7 +16,7 @@ Each contains 6 trial folders. Each trial folder contains `.txt` files named aft
 
 ---
 
-## 🧠 Signal Acquisition
+## Signal Acquisition
 
 - **Channels:** 2 EMG electrodes, 1 reference per channel
 - **Sampling Frequency:** 4700 Hz
