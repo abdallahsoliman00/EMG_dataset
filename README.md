@@ -67,4 +67,3 @@ Each `.txt` file is a time series with the following structure:
 0 0.012 0.014
 0.0002 0.013 0.013
 ```
-...
