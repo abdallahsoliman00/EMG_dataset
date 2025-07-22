@@ -8,13 +8,15 @@ This data was initially processed using the EMG Signal Processing library - [emg
 
 ## Dataset Structure
 
-EMG_data contains raw data that is unevenly sampled data at an average of 4700 HZ
+EMG_data contains unevenly sampled, raw EMG data.
 
-EMG_data_rectified has all data resampled evenly at 4700 Hz
+EMG_data_rectified has all data resampled evenly at 4700 Hz. (There is no distortion in the resampled data; all artifacts are perfectly preserved.)
 
-Each contains 6 trial folders. Each trial folder contains `.txt` files named after the gesture being performed (e.g., `rest0.txt`, `handlexion2.txt`, etc.). Each file holds a single gesture recording lasting 5 seconds.
+Each contains 6 trial folders. Each trial folder contains `.txt` files named after the gesture being performed (e.g., `rest0.txt`, `handlexion2.txt`, etc.). Each file holds a single gesture recording lasting 5 seconds.  
+Trials 1, 6 are reading taken from one participant; Trial 2 contains miscellaneous test data; Trials 3, 4, 5 are from one participant each.  
+All participants were males aged 19-22.
 
-Each gesture is recorded in two states. 
+Each gesture is recorded in two states.
 - A static state (5 recordings all trials, 10 for trial 6)
 - A dynamic state (1 recording all trials, none for trial 6)
 
